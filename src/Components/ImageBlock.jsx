@@ -12,7 +12,7 @@ const ImageBlock = ({ src }) => {
     }
     return (
         <>
-            <div className='lg:w-[300px] border-4 border-black w-[250px] rounded flex flex-col justify-around'>
+            <div className='lg:w-[300px] border-4 border-black w-[280px] rounded flex flex-col justify-around'>
                 <div className='h-'><img src={src} loading="lazy"/></div>
                 <div className='flex justify-between my-4 items-center text-black px-5'>
                     PicImage
